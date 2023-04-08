@@ -3,7 +3,7 @@
 ## Clone project
 
 ```
-git clone https://github.com/pyonic/node_file_service.git
+git clone https://github.com/pyonic/nodejs_file_service.git
 cd node_file_service/
 ```
 ## If you have MySQL running somewhere (or else docker section is in the bottom)

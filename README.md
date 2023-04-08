@@ -21,16 +21,13 @@ Install dependencies
 
 # Commands
 
-- `npm run start`: Runs the application by running `src/server.js`.
-- `npm run start:dev`: Runs the application in development mode by running `nodemon src/server.js`.
-- `migrate:make`: Generates a new migration file using the knexfile configuration.
-- `migrate:up`: Runs all pending migrations using the knexfile configuration.
-- `migrate:down`: Rolls back the last batch of migrations using the knexfile configuration.
+- `npm run start`: Runs the application by running `node src/server.js`.
+- `npm run start:dev`: Runs the application with watching changes on it `nodemon src/server.js`.
+- `npm run migrate:make migration_name`: Generates a new migration.
+- `npm run migrate:up (optional_migration_name)`: Runs all pending migrations.
+- `npm run migrate:down (optional_migration_name)`: Rolls back the last batch of migrations.
 
 # If you are using docker
-
-This will automatically run all necessary scripts and commands inside
-
 ```
 sudo docker compose up -d
 ```
